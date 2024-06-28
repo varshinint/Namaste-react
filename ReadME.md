@@ -39,9 +39,6 @@
 
 - useEffect()
  
-
- json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
-
  itemCards[1].card.info.name
 
 itemCards.map((item)=>{
