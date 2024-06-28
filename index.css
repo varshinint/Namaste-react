@@ -1,3 +1,137 @@
 #heading{
     color: red
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid green;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items > ul {
+
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20 px;
+
+}
+
+.nav-items >ul >li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.body{
+ 
+    padding: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.res-card {
+
+    width: 240px;   
+    margin: 9px;
+    padding: 2px;
+}
+
+.res-card:hover {
+
+   cursor: pointer;
+
+    border: 3px solid green;
+}
+
+.res-image{
+
+    width: 235px;
+    height: 190px;
+    padding: 1px;
+
+}
+
+.filter {
+    padding: 20px;
+    
+    
+}
+.search-btn{
+
+    color: white;
+    background-color: green;
+    
+}
+
+.filter-btn{
+
+    color: white;
+    background-color: green;
+  
+    
+}
+.login-btn{
+    color: white;
+    background-color: green;
+}
+.shimmer-card{
+    width: 240px;
+    margin: 9px;
+    padding: 2px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.menu-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: lightgrey; 
+    background-color: lightgrey ;
+    border-width: 5px;
+    border-spacing: 1;
+}
+.item-card{
+    display: flex;
+    justify-content: space-between;
+    border: lightgrey;
+    background-color: lightgrey;
+    margin: 15px;
+    
+}
+.menu-img{
+    width: 200px;
+    height: 150px;
+    padding: 1px;
+}
+.add-btn{
+    color: white;
+    background-color: green;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+.menu-card{
+    justify-content: center;
+    
+}
+.sub-btn{
+    color: white;
+    background-color: green;
+
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+}
