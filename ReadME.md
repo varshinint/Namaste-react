@@ -38,9 +38,3 @@
 - whenever state variable changes react rerenders the component (react will quickly update the UI)
 
 - useEffect()
- 
- itemCards[1].card.info.name
-
-itemCards.map((item)=>{
-    <li> {item.card.info.name}</li>
-})
