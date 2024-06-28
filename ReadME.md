@@ -1,4 +1,5 @@
 # Food order App using Reactjs library ------
+Sample output below
 [image](https://github.com/varshinint/Namaste-react/assets/32032828/55805979-3a52-456a-9fc5-63159bbadaf4)
 
 
